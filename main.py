@@ -26,7 +26,7 @@ driver = webdriver.Chrome(service=service, options=options)
 
 driver.get('https://www.daum.net/')
 
-# time.sleep(10)
+time.sleep(10)
 # aa = driver.page_source # html 태그 전체 가져옴
 # driver.find_element(By.CSS_SELECTOR,'#q').send_keys('aa') #센드키
 # driver.get_screenshot_as_file('aa.png') #캡쳐하기
